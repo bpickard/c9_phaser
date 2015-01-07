@@ -17,6 +17,6 @@ function create() {
     sprite.anchor.setTo(0.5, 0.5);
     sprite.alpha = 0;
 
-    game.add.tween(sprite).to( { alpha: 1 }, 2000, Phaser.Easing.Linear.None, true, 0, 1000, true);
+    game.add.tween(sprite).to( { alpha: 1 }, 2000, Phaser.Easing.Linear.None, true, 0, 0, false);
 
 }
